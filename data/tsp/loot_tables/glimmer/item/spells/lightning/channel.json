@@ -1,0 +1,39 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:book",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "tsp.glimmer.item.spell_tome", "italic": false, "color": "yellow"}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"translate": "tsp.glimmer.item.spells.channel", "italic": false, "color": "gray"},
+                                [
+                                    {"text":"G", "italic": false, "color":"#7C007C"},
+                                    {"text":"l", "italic": false, "color":"#9B005F"},
+                                    {"text":"i", "italic": false, "color":"#B20049"},
+                                    {"text":"m", "italic": false, "color":"#CF002E"},
+                                    {"text":"m", "italic": false, "color":"#FF0000"},
+                                    {"text":"e", "italic": false, "color":"#FF5C00"},
+                                    {"text":"r", "italic": false, "color":"#FFFF00"}
+                                ]
+                            ]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3160102}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

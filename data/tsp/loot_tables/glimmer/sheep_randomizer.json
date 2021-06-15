@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "uniform",
+        "min": 0,
+        "max": 15
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:white_wool"
+        }
+      ]
+    }
+  ]
+}

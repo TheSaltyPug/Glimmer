@@ -1,0 +1,5 @@
+#> tsp:daydream/imbuement/recipes/ichestplate
+execute as @s[nbt={Item:{id:"minecraft:iron_chestplate"}}] if entity @e[type=item_frame,tag=!sp_mag.imbuement.imbuer,distance=..6,limit=1,nbt={Item:{id:"minecraft:diamond",tag:{CustomModelData:1630005}}}] if entity @e[type=item_frame,tag=!sp_mag.imbuement.imbuer,distance=..6,limit=1,nbt={Item:{id:"minecraft:iron_sword"}}] if entity @e[type=item_frame,tag=!sp_mag.imbuement.imbuer,distance=..6,limit=1,nbt={Item:{id:"minecraft:end_crystal"}}] if entity @e[type=item_frame,tag=!sp_mag.imbuement.imbuer,distance=..6,limit=1,nbt={Item:{id:"minecraft:phantom_membrane"}}] run tag @s add tsp.dd.crafting.imbuement.found_recipe
+execute as @s[tag=tsp.dd.crafting.imbuement.found_recipe] run tag @s add tsp.dd.crafting.imbuement.id.ichestplate
+execute as @s[tag=tsp.dd.crafting.imbuement.found_recipe] run scoreboard players set @s tsp.dd.imbueTime 120
+execute as @s[tag=tsp.dd.crafting.imbuement.found_recipe] run tag @s remove tsp.dd.crafting.imbuement.found_recipe

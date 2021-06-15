@@ -1,0 +1,2 @@
+#> tsp:daydream/display/mana/l0/l0_100
+execute as @a[scores={tsp.dd.pmana=100}] run title @s actionbar ["",{"translate":"tsp.mana.end","font":"tsp:mana"},{"translate":"tsp.mana.f.50","font":"tsp:mana"},{"translate":"tsp.mana.f.50","font":"tsp:mana"},{"translate":"tsp.mana.end","font":"tsp:mana"}]

@@ -1,0 +1,32 @@
+{
+	"type": "minecraft:item",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "tsp.dd.item.staff", "italic": false}
+						},
+						{
+							"function": "minecraft:set_lore",
+							"lore": [
+								{"translate": "tsp.dd.item.spells.3.1.1.desc.1", "italic": false, "color": "gray"},
+								{"translate": "tsp.dd.item.spells.3.1.1.desc.2", "italic": false, "color": "gray"},
+								{"translate": "tsp.dd.item.spells.3.1.1.desc.3", "italic": false, "color": "gray"}
+							]
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData:3160100,tsp-dd-spell_school:3,tsp-dd-spell_id:1,tsp-dd-element:1,tsp-dd-useMana:0}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

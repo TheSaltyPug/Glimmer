@@ -1,0 +1,17 @@
+{
+     "criteria": {
+          "trigger": {
+               "trigger": "minecraft:tick"
+          }
+     },
+     "display": {
+          "announce_to_chat": false,
+          "description": "Vanilla-style magic addon",
+          "icon": {
+               "item": "minecraft:leather_helmet"
+          },
+          "show_toast": false,
+          "title": "Glimmer - Vanilla Style Magic"
+     },
+     "parent": "global:tsp"
+}

@@ -1,0 +1,13 @@
+{
+    "values":[
+        "minecraft:air",
+        "minecraft:cave_air",
+        "#minecraft:wooden_fences",
+        "#minecraft:wooden_buttons",
+        "#minecraft:wooden_pressure_plates",
+        "#minecraft:flowers",
+        "minecraft:torch",
+        "minecraft:wall_torch",
+        "#minecraft:crops"
+    ]
+}
