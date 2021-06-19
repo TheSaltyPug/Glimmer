@@ -46,3 +46,6 @@ scoreboard players set $2.5 tsp.glim.const 25
 scoreboard players set $40.5 tsp.glim.const 405
 scoreboard players set $162.5 tsp.glim.const 1625
 scoreboard players set $10 tsp.glim.const 10
+
+# a reload message that will display to anyone that has the debug scoreboard
+execute as @a if score @s tsp.debug matches 1 run tellraw @s ["",{"text":"[Debug]:","bold": true, "color":"yellow"},{"text": " Reloaded 'Glimmer' and its scoreboards"}]
