@@ -16,4 +16,4 @@ tp @s @e[tag=tsp.glimmer.recall,limit=1]
 kill @e[tag=tsp.glimmer.recall]
 
 # make a fancy sound
-playsound minecraft:entity.enderman.teleport master @a ~ ~ ~
+execute at @s run playsound minecraft:entity.enderman.teleport master @a ~ ~ ~

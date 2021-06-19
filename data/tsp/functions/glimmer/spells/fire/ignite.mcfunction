@@ -14,4 +14,6 @@ playsound minecraft:item.firecharge.use master @a ~ ~ ~
 # set dummy to 0 for raycast
 scoreboard players set @s tsp.glim.dummy 0
 # start raycast
+tag @s add tsp.glimmer.ignite.caster
 execute anchored eyes positioned ^ ^ ^1 run function tsp:glimmer/spells/fire/ignite_raycast
+tag @s remove tsp.glimmer.ignite.caster

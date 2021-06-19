@@ -1,10 +1,5 @@
 #> tsp:glimmer/spells/ender/blink
 
-# calculate xp
-
-# if we have correct xp,
-# remove xp amount
-# run spell
 # set the spell cooldown based on the spell
 execute unless score @s tsp.glim.stimer matches 1.. run execute store result score @s tsp.glim.stimer run data get entity @s Inventory[{Slot:-106b}].tag.tsp.glimmer.spell_cooldown
 

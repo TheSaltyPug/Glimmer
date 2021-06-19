@@ -29,7 +29,7 @@
 						},
 						{
 							"function": "minecraft:set_nbt",
-							"tag": "{CustomModelData:3160105, tsp: {glimmer: {item: 'spell_tome', spell_type: 6, spell_id: 1, spell_cost: 40, spell_cooldown: 30}}}"
+							"tag": "{CustomModelData:3160105, tsp: {glimmer: {item: 'spell_tome', spell_type: 6, spell_id: 1, spell_cost: 40, spell_cooldown: 10}}}"
 						}
 					]
 				}
