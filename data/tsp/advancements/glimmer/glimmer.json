@@ -6,12 +6,13 @@
      },
      "display": {
           "announce_to_chat": false,
-          "description": "Vanilla-style magic addon",
+          "description": ["",{"translate": "tsp.glimmer.subtitle", "color":"blue"},{"text":"\n\nIf you do not see the spell book, you are missing the resource pack!","color":"red"}],
           "icon": {
-               "item": "minecraft:leather_helmet"
+               "item": "minecraft:barrier",
+               "nbt": "{CustomModelData:3160101}"
           },
           "show_toast": false,
-          "title": "Glimmer - Vanilla Style Magic"
+          "title": ["",{"translate":"tsp.glimmer.title.advancement"}]
      },
      "parent": "global:tsp"
 }
